@@ -47,13 +47,10 @@ This will install all the required plugins.
 _Add screenshots here to showcase your Neovim setup._
 
 ### Screenshot 1: Neovim UI
-![Neovim UI](screenshots/neovim_ui.png)
+![Neovim UI](https://i.postimg.cc/Rhv9PFNF/Screenshot-2024-01-22-at-20-53-26.png)
 
 ### Screenshot 2: Code Editing
-![Code Editing](screenshots/code_editing.png)
-
-### Screenshot 3: Plugin Features
-![Plugin Features](screenshots/plugin_features.png)
+![Code Editing](https://i.postimg.cc/7hP83WWJ/Screenshot-2024-01-22-at-20-55-02.png)
 
 ## Features
 
