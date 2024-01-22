@@ -2,6 +2,14 @@
 
 Welcome to my Neovim configuration! This setup is designed to enhance your Neovim experience with a curated selection of plugins and optimizations. Follow the steps below to get started.
 
+## Screenshots
+
+### Screenshot 1: Neovim UI
+![Neovim UI](https://i.postimg.cc/Rhv9PFNF/Screenshot-2024-01-22-at-20-53-26.png)
+
+### Screenshot 2: Code Editing
+![Code Editing](https://i.postimg.cc/7hP83WWJ/Screenshot-2024-01-22-at-20-55-02.png)
+
 ## Installation
 
 1. **Backup Existing Configuration (Optional)**:
@@ -41,16 +49,6 @@ Inside Neovim, run the following command:
 This will install all the required plugins.
 
 6. **Enjoy Your Enhanced Neovim Experience!**
-
-## Screenshots
-
-_Add screenshots here to showcase your Neovim setup._
-
-### Screenshot 1: Neovim UI
-![Neovim UI](https://i.postimg.cc/Rhv9PFNF/Screenshot-2024-01-22-at-20-53-26.png)
-
-### Screenshot 2: Code Editing
-![Code Editing](https://i.postimg.cc/7hP83WWJ/Screenshot-2024-01-22-at-20-55-02.png)
 
 ## Features
 
