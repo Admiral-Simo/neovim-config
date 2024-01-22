@@ -1,4 +1,4 @@
-# Neovim Configuration by Admiral-Simo
+# Neovim Configuration by Admiral-Simo (Credit to ThePrimeAgen)
 
 Welcome to my Neovim configuration! This setup is designed to enhance your Neovim experience with a curated selection of plugins and optimizations. Follow the steps below to get started.
 
