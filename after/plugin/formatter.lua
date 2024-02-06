@@ -33,6 +33,8 @@ require("formatter").setup {
     }
 }
 
+vim.api.nvim_command([[autocmd BufWritePost *.rs lua vim.lsp.buf.format()]])
+
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
     command = "FormatWriteLock"
 })
