@@ -7,7 +7,7 @@ function ColorMyPencils(color)
     vim.cmd.colorscheme(color)
 
     -- Set line numbers color
-    vim.api.nvim_set_hl(0, "LineNr", { fg = "#ffff54" })
+    vim.api.nvim_set_hl(0, "LineNr", { fg = "#cccccc" })
 
     -- Set other colors as needed
     vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
