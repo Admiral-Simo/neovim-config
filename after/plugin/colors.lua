@@ -6,9 +6,6 @@ function ColorMyPencils(color)
     color = color or "rose-pine"
     vim.cmd.colorscheme(color)
 
-    -- Set line numbers color
-    vim.api.nvim_set_hl(0, "LineNr", { fg = "#cccccc" })
-
     -- Set other colors as needed
     vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
     vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
