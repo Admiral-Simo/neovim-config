@@ -17,10 +17,10 @@ return require("packer").startup(function(use)
     }
 
     use({
-        "rose-pine/neovim",
-        as = "rose-pine",
+        "rebelot/kanagawa.nvim",
+        as = "kanagawa",
         config = function()
-            vim.cmd("colorscheme rose-pine")
+            vim.cmd("colorscheme kanagawa")
         end
     })
 
@@ -79,6 +79,13 @@ return require("packer").startup(function(use)
     use("tpope/vim-surround")
     use("mhartington/formatter.nvim")
     use("windwp/nvim-ts-autotag")
-    use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = {
-            "markdown" } end, ft = { "markdown" }, })
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = "cd app && npm install",
+        setup = function()
+            vim.g.mkdp_filetypes = {
+                "markdown" }
+        end,
+        ft = { "markdown" },
+    })
 end)
