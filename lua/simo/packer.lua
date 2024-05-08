@@ -17,10 +17,10 @@ return require("packer").startup(function(use)
     }
 
     use({
-        "rebelot/kanagawa.nvim",
-        as = "kanagawa",
+        "rose-pine/neovim",
+        as = "rose-pine",
         config = function()
-            vim.cmd("colorscheme kanagawa")
+            vim.cmd("colorscheme rose-pine")
         end
     })
 

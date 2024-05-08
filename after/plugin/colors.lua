@@ -1,9 +1,9 @@
-require('kanagawa').setup({
+require('rose-pine').setup({
     disable_background = true
 })
 
 function ColorMyPencils(color)
-    color = color or "kanagawa"
+    color = color or "rose-pine"
     vim.cmd.colorscheme(color)
 
     -- Set other colors as needed
