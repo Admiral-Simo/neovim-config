@@ -28,7 +28,6 @@ lsp.setup_nvim_cmp({
     mapping = cmp_mappings
 })
 
-
 -- Set preferences and sign icons for diagnostics
 lsp.set_preferences({
     suggest_lsp_servers = false,
@@ -41,7 +40,7 @@ lsp.set_preferences({
 })
 
 -- Attach LSP on events
-lsp.on_attach(function(client, bufnr)
+lsp.on_attach(function(_, bufnr)
     local opts = { buffer = bufnr, remap = false }
 
     vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)

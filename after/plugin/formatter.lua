@@ -1,6 +1,3 @@
--- Utilities for creating configurations
-local util = require "formatter.util"
-
 -- Provides the Format, FormatWrite, FormatLock, and FormatWriteLock commands
 require("formatter").setup {
     -- Enable or disable logging
@@ -36,6 +33,8 @@ require("formatter").setup {
 vim.api.nvim_command([[autocmd BufWritePost *.rs lua vim.lsp.buf.format()]])
 
 vim.api.nvim_command([[autocmd BufWritePost *.go lua vim.lsp.buf.format()]])
+
+vim.api.nvim_command([[autocmd BufWritePost *.templ lua vim.lsp.buf.format()]])
 
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
     command = "FormatWriteLock"
