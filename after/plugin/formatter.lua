@@ -30,6 +30,8 @@ require("formatter").setup {
     }
 }
 
+vim.api.nvim_command([[autocmd BufWritePost *.svelte lua vim.lsp.buf.format()]])
+
 vim.api.nvim_command([[autocmd BufWritePost *.rs lua vim.lsp.buf.format()]])
 
 vim.api.nvim_command([[autocmd BufWritePost *.go lua vim.lsp.buf.format()]])
