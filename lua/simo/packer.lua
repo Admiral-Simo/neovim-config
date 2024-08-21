@@ -88,4 +88,18 @@ return require("packer").startup(function(use)
         end,
         ft = { "markdown" },
     })
+
+    use("tjdevries/templ.nvim")
+
+    use {
+        "Exafunction/codeium.nvim",
+        requires = {
+            "nvim-lua/plenary.nvim",
+            "hrsh7th/nvim-cmp",
+        },
+        config = function()
+            require("codeium").setup({
+            })
+        end
+    }
 end)
