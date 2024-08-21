@@ -90,4 +90,5 @@ return require("packer").startup(function(use)
     })
 
     use("tjdevries/templ.nvim")
+    use("vim-airline/vim-airline")
 end)
