@@ -5,7 +5,7 @@ lsp.preset("recommended")
 lsp.ensure_installed({
     'tsserver',
     'rust_analyzer',
-    'clangd', -- Added Clangd to the list of installed servers
+    'clangd',
 })
 
 -- Fix Undefined global 'vim'
