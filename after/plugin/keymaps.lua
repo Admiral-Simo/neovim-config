@@ -9,10 +9,11 @@ function GenerateGettersSetters()
         local type, name = line:match("private%s+(%S+)%s+(%S+);") -- Match private attributes
         if type and name then
             local capitalized_name = name:gsub("^%l", string.upper) -- Capitalize first letter
+            local getter_name = (type == "boolean") and ("is" .. capitalized_name) or ("get" .. capitalized_name)
 
             -- Generate getter
             table.insert(methods, "")
-            table.insert(methods, "    public " .. type .. " get" .. capitalized_name .. "() {")
+            table.insert(methods, "    public " .. type .. " " .. getter_name .. "() {")
             table.insert(methods, "        return " .. name .. ";")
             table.insert(methods, "    }")
 
